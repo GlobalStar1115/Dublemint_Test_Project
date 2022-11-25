@@ -128,7 +128,6 @@
                         phone: phone
                     },
                     success: function(res) {
-                        console.log(res);
                         if (res.status == 'error') {
                             $("#errText").html(res.errMessage);
                             errModal.toggle();
